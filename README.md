@@ -33,4 +33,25 @@ is more costly than a false positive.
 - Feature selection and model interpretability analysis
 
 ## How to Run
-Open `bank_marketing_ml.ipynb` and run all cells sequentially.
+
+1. Clone or download this project.
+2. Open a terminal and navigate to the project directory:
+   ```bash
+   cd path/to/Bank-Marketing-ML-Project
+   ```
+3. Create a virtual environment (recommended):
+   ```bash
+   python3 -m venv venv
+   ```
+4. Activate the virtual environment:
+   - On macOS/Linux: `source venv/bin/activate`
+   - On Windows: `venv\Scripts\activate`
+5. Install the required dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+6. Start Jupyter Notebook:
+   ```bash
+   jupyter notebook
+   ```
+7. Open `bank_marketing_ml.ipynb` in your browser and run all cells sequentially.
